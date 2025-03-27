@@ -36,6 +36,7 @@ a {
 p:not(.pAvantH3) {
   font-size: 18px;
   letter-spacing: 1px;
+  line-height: 1.53;
   font-weight: 200;
 }
 .pAvantH3 {
@@ -135,7 +136,6 @@ nav ul {
 #sectionAbout p:last-of-type {
   margin-top: 8px;
   margin-bottom: 48px;
-  line-height: 1.53;
 }
 #sectionAbout button {
   padding-inline: 12px;
