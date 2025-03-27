@@ -123,6 +123,7 @@ nav ul {
 #sectionAbout {
   display: flex;
   gap: 24px;
+  margin-bottom: 166px;
 }
 #sectionAbout img {
   width: 480px;
@@ -145,6 +146,43 @@ nav ul {
   color: #695aa6;
   background-color: white;
   border: solid #695aa6 1px;
+}
+
+/* section service */
+#sectionService {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#sectionService h3 {
+    margin-bottom: 69px;
+}
+#sectionService > div {
+    display: flex;
+    gap: 35px;
+}
+#sectionService > div > div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 303px;
+    height: 272px;
+    border: 1px solid #dee2e6;
+    border-radius: 3px;
+}
+#sectionService div p {
+    display: none;
+}
+#sectionService img {
+    margin-top: 58px;
+    width: 65px;
+}
+#sectionService h4 {
+    margin-top: 25px;
+    color: #695aa6;
+    font-size: 25px;
+    font-weight: 900;
+    font-family: "Baloo 2";
 }
 /* footer */
 
