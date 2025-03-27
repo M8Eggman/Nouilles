@@ -37,7 +37,7 @@ header {
   align-items: center;
   background-image: linear-gradient(
       to bottom,
-      rgba(105, 90, 166, 0.25),
+      rgba(105, 90, 166, 0.35),
       rgba(255, 255, 255, 1)
     ),
     url(../images/header.jpg);
