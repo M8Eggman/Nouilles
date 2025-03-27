@@ -58,11 +58,17 @@ h4 {
   font-weight: 900;
   font-family: "Baloo 2";
 }
+/* valeur qui revient souvant */
 #sectionService,
-#sectionPortfolio {
+#sectionPortfolio,
+#sectionPricing {
   display: flex;
   align-items: center;
   flex-direction: column;
+}
+#sectionService,
+#sectionPortfolio {
+  margin-bottom: 148px;
 }
 /* header */
 header {
@@ -160,9 +166,6 @@ nav ul {
 }
 
 /* section service */
-#sectionService {
-  margin-bottom: 148px;
-}
 #sectionService h3 {
   margin-bottom: 69px;
 }
@@ -191,10 +194,9 @@ nav ul {
 }
 
 /* section portfolio */
-#sectionPortfolio {
-}
+
 #sectionPortfolio h3 {
-    margin-bottom: 67px;
+  margin-bottom: 67px;
 }
 #sectionPortfolio > div {
   display: flex;
@@ -220,6 +222,65 @@ nav ul {
 #sectionPortfolio > div > div > p {
   display: none;
 }
+
+/* section pricing */
+#sectionPricing h3 {
+  margin-bottom: 67px;
+}
+#sectionPricing img {
+  margin-top: 36px;
+  margin-bottom: 33px;
+  width: 85px;
+}
+#sectionPricing > div {
+  display: flex;
+}
+#sectionPricing > div > div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 441px;
+  height: 662px;
+  border: 1px #dee2e6 solid;
+}
+#sectionPricing > div > div > h3 {
+  margin-bottom: 6px;
+  line-height: 1;
+}
+#sectionPricing ul {
+  padding: 0;
+}
+#sectionPricing ul li {
+  margin-top: 0;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+#sectionPricing ul li:not(:last-child) {
+  margin-bottom: 15.5px;
+}
+#sectionPricing i {
+  color: red;
+}
+#sectionPricing p:not(.pAvantH3) {
+  margin-top: 4px;
+  font-size: 43px;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+#sectionPricing button {
+  height: 45px;
+  width: 118px;
+  color: white;
+  background-color: #695aa6;
+  border: none;
+  border-radius: 3px;
+  font-size: 20px;
+}
+
+/* section hire */
+
 
 /* footer */
 
