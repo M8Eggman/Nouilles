@@ -52,6 +52,12 @@ h3 {
   font-size: 45px;
   font-weight: 900;
 }
+h4 {
+    color: #695aa6;
+    font-size: 25px;
+    font-weight: 900;
+    font-family: "Baloo 2";
+}
 
 /* header */
 header {
@@ -179,10 +185,6 @@ nav ul {
 }
 #sectionService h4 {
     margin-top: 25px;
-    color: #695aa6;
-    font-size: 25px;
-    font-weight: 900;
-    font-family: "Baloo 2";
 }
 /* footer */
 
