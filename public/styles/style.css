@@ -1,4 +1,18 @@
 /* font */
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap");
+.baloo-2{
+  font-family: "Baloo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.noto-sans-jp {
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
 
 /* animation */
 
