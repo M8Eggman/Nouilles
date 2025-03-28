@@ -150,10 +150,13 @@ nav li {
   font-weight: 800;
   font-size: 20px;
 }
+nav a {
+  color: #6c757d;
+}
 nav i {
   font-size: xx-large;
 }
-.navP {
+.navP a{
   margin-block: 10px;
   color: #695aa6;
   font-family: "Baloo 2";
