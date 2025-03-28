@@ -29,7 +29,7 @@ a {
   color: black;
   text-decoration: none;
 }
-p:not(.pAvantH3) {
+p:not(.pAvantH3):not(.headerP) {
   font-size: 18px;
   letter-spacing: 1px;
   line-height: 1.53;
