@@ -477,6 +477,30 @@ nav ul {
 }
 
 /* footer */
+footer {
+  color: #6c757d;
+  margin-top: 103px;
+  margin-inline: 198px;
+  border-top: 1px #dee2e6 solid;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 84px;
+  font-weight: 400;
+}
+footer > div {
+  display: flex;
+  gap: 5px;
+}
+footer > div > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 42px;
+  height: 42px;
+  border: #6c757d 3px solid;
+  border-radius: 50px;
+}
 
 /* média querries */
 /* écran smartphone */
