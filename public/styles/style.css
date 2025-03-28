@@ -57,7 +57,8 @@ h4 {
 /* valeur qui revient souvant */
 #sectionService,
 #sectionPortfolio,
-#sectionPricing {
+#sectionPricing,
+#sectionTestmonial {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -286,6 +287,7 @@ nav ul {
   align-items: center;
   background-color: #695aa6;
   height: 164px;
+  margin-bottom: 63px;
 }
 #sectionHire div > p b {
   font-family: "Baloo 2";
@@ -311,7 +313,50 @@ nav ul {
   font-weight: 750;
   padding-inline: 21px;
   padding-block: 9px;
-
+}
+/* section testmonial */
+#sectionTestmonial {
+}
+#sectionTestmonial h3 {
+  margin-bottom: 66px;
+}
+#sectionTestmonial > div {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+}
+#sectionTestmonial > div > div {
+  display: flex;
+  align-items: center;
+}
+#sectionTestmonial > div > div:last-of-type {
+  position: relative;
+  right: 44px;
+}
+#sectionTestmonial > div > div > div {
+  border: #dee2e6 3px solid;
+  width: 587px;
+  height: 190px;
+}
+#sectionTestmonial p {
+  position: relative;
+  top: 5px;
+  letter-spacing: 0.5px;
+}
+#sectionTestmonial h4 {
+  position: relative;
+  bottom: 5px;
+  font-size: 22px;
+}
+#sectionTestmonial p,
+#sectionTestmonial h4 {
+  margin-inline: 70px;
+}
+#sectionTestmonial img {
+  width: 98px;
+  border-radius: 50px;
+  position: relative;
+  left: 49px;
 }
 
 /* footer */
