@@ -58,7 +58,8 @@ h4 {
 #sectionService,
 #sectionPortfolio,
 #sectionPricing,
-#sectionTestmonial {
+#sectionTestmonial,
+#sectionBlog {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -316,6 +317,7 @@ nav ul {
 }
 /* section testmonial */
 #sectionTestmonial {
+  margin-bottom: 184px;
 }
 #sectionTestmonial h3 {
   margin-bottom: 66px;
@@ -359,6 +361,72 @@ nav ul {
   left: 49px;
 }
 
+/* section blog */
+#sectionBlog h3 {
+  margin-bottom: 66px;
+}
+#sectionBlog > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
+}
+#sectionBlog > div > div {
+  display: flex;
+  border: 2px #dee2e6 solid;
+  height: 413px;
+  width: 1325px;
+}
+#sectionBlog h4 {
+  margin-top: 30px;
+  margin-bottom: 11px;
+  font-size: 24px;
+}
+#sectionBlog p b {
+  font-size: 15px;
+  color: #585960;
+  margin-right: 16px;
+}
+#sectionBlog > div > div > div {
+  margin-inline: 36px;
+}
+/* sélecteur du by admin et des nombres */
+.nombre,
+#sectionBlog > div > div > div > div > p {
+  margin-block: 0px;
+}
+#sectionBlog i {
+  position: relative;
+  top: 8px;
+  margin-right: 7px;
+}
+#sectionBlog i:first-of-type {
+  color: red;
+}
+#sectionBlog i:last-of-type {
+  color: #585960;
+}
+.nombre {
+  position: relative;
+  top: 4px;
+  color: #585960;
+  margin-right: 16px;
+  font-family: "Baloo 2";
+  font-size: 15px;
+}
+#sectionBlog > div > div > div > div {
+  display: flex;
+  align-items: center;
+}
+#sectionBlog > div > div > div > div > div {
+  display: flex;
+}
+#sectionBlog > div > div:last-of-type {
+  height: 404px;
+}
+#sectionBlog img {
+  width: 418px;
+}
 /* footer */
 
 /* média querries */
