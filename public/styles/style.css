@@ -427,6 +427,16 @@ nav ul {
 #sectionBlog img {
   width: 418px;
 }
+#sectionBlog button {
+  position: relative;
+  top: 8px;
+  right: 5px;
+  color: #695aa6;
+  background-color: white;
+  border: none;
+  font-size: 15px;
+  font-weight: 525;
+}
 /* footer */
 
 /* média querries */
