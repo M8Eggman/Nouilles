@@ -190,6 +190,9 @@ nav {
   border-bottom: #dee2e6 1px solid;
   z-index: 1;
 }
+nav div {
+  display: flex;
+}
 nav ul {
   display: flex;
   position: relative;
@@ -216,6 +219,15 @@ nav i {
   font-size: 38px;
   font-weight: 800;
 }
+.navCroix{
+  margin-left: 20px;
+  background:none;
+  border: none;
+}
+.navBurger {
+  display: none;
+}
+
 /* main */
 /* section about */
 #sectionAbout {
@@ -621,7 +633,6 @@ footer > div > div {
 
 /* média querries */
 /* écran smartphone */
-
-/* écran tablette */
-
-/* commun entre tablette et smartphone */
+@media (max-width:576px) {
+  
+}
