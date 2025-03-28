@@ -281,11 +281,37 @@ nav ul {
 
 /* section hire */
 #sectionHire {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #695aa6;
-    height: 164px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #695aa6;
+  height: 164px;
+}
+#sectionHire div > p b {
+  font-family: "Baloo 2";
+  font-size: 24px;
+  letter-spacing: 0.5px;
+}
+#sectionHire p {
+  position: relative;
+  bottom: 5px;
+  right: 5px;
+  margin-bottom: 0;
+  margin-top: 5px;
+  color: white;
+}
+#sectionHire button {
+  position: relative;
+  right: 176px;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  font-family: "Baloo 2";
+  font-size: 24px;
+  font-weight: 750;
+  padding-inline: 21px;
+  padding-block: 9px;
+
 }
 
 /* footer */
