@@ -15,7 +15,32 @@
 }
 
 /* animation */
-
+@keyframes portfolio {
+  0% {
+    width: 300px;
+    height: 20px;
+  }
+  25% {
+    width: 320px;
+    height: 120px;
+    filter: opacity(25%);
+  }
+  50% {
+    width: 360px;
+    height: 240px;
+    filter: opacity(50%);
+  }
+  75% {
+    width: 390px;
+    height: 360px;
+    filter: opacity(75%);
+  }
+  100% {
+    width: 420px;
+    height: 420px;
+    filter: opacity(100%);
+  }
+}
 /* style général */
 body {
   margin: 0;
@@ -156,7 +181,7 @@ nav a {
 nav i {
   font-size: xx-large;
 }
-.navP a{
+.navP a {
   margin-block: 10px;
   color: #695aa6;
   font-family: "Baloo 2";
@@ -232,6 +257,9 @@ nav i {
   gap: 35px;
 }
 #sectionPortfolio > div > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 420px;
   height: 420px;
 }
@@ -247,9 +275,22 @@ nav i {
   background-image: url(../images/folio-3.jpg);
   background-size: cover;
 }
-#sectionPortfolio > div > div > h4,
-#sectionPortfolio > div > div > p {
-  display: none;
+#sectionPortfolio div p,
+#sectionPortfolio div h4 {
+  text-align: center;
+  font-weight: 800;
+  margin: 0;
+}
+#sectionPortfolio > div > div > div {
+  filter: opacity(0%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #c0b5fe89;
+}
+#sectionPortfolio > div > div:hover > div {
+  animation: portfolio 333ms forwards;
 }
 
 /* section pricing */
