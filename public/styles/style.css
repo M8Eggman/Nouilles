@@ -631,8 +631,134 @@ footer > div > div {
 }
 
 /* média querries */
-/* écran smartphone */
-@media (max-width: 1440px) {
+/* écran pc et tablette */
+@media (min-width:577px) and (max-width:1440px) {
+  /* style général */
+  header {
+    height: auto;
+  }
+  header h1 {
+    font-size: 60px;
+  }
+  header h2 {
+    font-size: 40px;
+  }
+  h3 {
+    font-size: 35px;
+  }
+  h4 {
+    font-size: 25px;
+  }
+  header p {
+    font-size: 20px;
+  }
+  p {
+    font-size: 16px;
+  }
+  /* header */
+  header div {
+    margin-top: 0px;
+    width: 90vw;
+    padding-bottom: 10px;
+  }
+  /* nav */
+  nav {
+    column-gap: 0px;
+  }
+  nav div {
+    display: none;
+  }
+  .navP {
+    margin-inline: 0px;
+  }
+  .navBurger {
+    display: block;
+    margin-inline: 0px;
+  }
+  /* sectionAbout */
+  #sectionAbout {
+    margin-inline: 10px;
+
+  }
+  #sectionAbout img {
+    width: 90vw;
+    height: 50.625vw;
+  }
+  /* sectionService */
+  #sectionService > div {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  /* section portfolio */
+  #sectionPortfolio > div {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  /* section pricing */
+  #sectionPricing > div {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  /* section hire */
+  #sectionHire button {
+    right: 0px;
+  }
+  /* section testmonial */
+  #sectionTestmonial > div {
+    flex-wrap: wrap;
+  }
+  #sectionTestmonial > div > div {
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90vw;
+  }
+  #sectionTestmonial > div > div:last-of-type {
+    right: 0px;
+  }
+  #sectionTestmonial > div > div > div {
+    border: #dee2e6 3px solid;
+    width: 75vw;
+    height: auto;
+  }
+  #sectionTestmonial p,
+  #sectionTestmonial h4 {
+    margin-inline: 0;
+  }
+  #sectionTestmonial img {
+    left: 0px;
+  }
+  /* section blog */
+  #sectionBlog > div > div {
+    height: auto;
+    width: 90vw;
+  }
+  #sectionBlog > div > div:last-of-type {
+    height: auto;
+  }
+  #sectionBlog img {
+    width: 30vw;
+    height: 30vw;
+  }
+  #sectionBlog > div > div > div > div {
+    flex-wrap: wrap;
+  }
+  /* section contact */
+  #sectionContact textarea {
+    width: 90vw;
+    height: 185px;
+  }
+  /* footer */
+  footer {
+    padding-block: 10px;
+    margin-inline: 10px;
+    height: auto;
+  }
+  footer > div {
+    flex-wrap: wrap;
+  }
+}
+/* écran smartphone*/
+@media (max-width: 576px) {
   /* style général */
   header {
     height: auto;
@@ -760,7 +886,7 @@ footer > div > div {
   }
   #sectionBlog p b,
   #sectionBlog p:not(.pAvantH3) {
-    font-size: 14px;
+    font-size: 16px;
   }
   /* section contact */
   #sectionContact textarea {
